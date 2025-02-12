@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️ Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <audio id="bgMusic" autoplay loop>
+        <source src="1.mp3" type="audio/mp3">
+    </audio>
+    <div class="rose-petals"></div>
+    <div id="particles-js"></div>
+    <div class="floating-hearts"></div>
+    <div class="container">
+        <!-- Login Section -->
+        <div class="login-section" id="loginSection">
+            <div class="login-card">
+                <h2>❤️ Welcome My Love ❤️</h2>
+                <p>Masukkan nama dan kata sandi untuk membuka kunci hatiku...</p>
+                <div class="input-group">
+                    <input type="text" id="nameInput" placeholder="Enter your name" class="input-field">
+                    <input type="password" id="passwordInput" placeholder="Enter password" class="input-field">
+                    <button onclick="checkLogin()" class="login-btn">Open My Heart ❤️</button>
+                </div>
+                <div id="loginHint" class="hint">
+                    Petunjuk: Tiga kata sederhana yang berarti segalanya... 💕
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="main-content" id="mainContent">
+            <div class="valentines-card">
+                <h1>Happy Valentine's Day, My Love!</h1>
+
+                <div class="photo-card">
+                    <img src="6.gif" alt="Couple Photo" class="couple-photo">
+
+
+                </div>
+
+                <div class="love-messages">
+                    <p class="message">From the moment I met you, my world changed forever 💫</p>
+                    <p class="message">Every day with you feels like a beautiful dream 💝</p>
+                    <p class="message">Your smile lights up my darkest days ✨</p>
+                    <p class="message">You're my everything, my always, my forever 💑</p>
+                </div>
+
+                <div class="memory-gallery">
+                    <div class="memory-container">
+                        <div class="memory active" id="memory1">
+                            <h3>Our First Date</h3>
+                            <p>Remember when we first met? That magical moment... ❤️</p>
+                        </div>
+                        <div class="memory" id="memory2">
+                            <h3>Special Moments</h3>
+                            <p>Every second with you is precious... 💕</p>
+                        </div>
+                        <div class="memory" id="memory3">
+                            <h3>Chat with Me</h3>
+                            <p>Click here to send me a message... 💌</p>
+                        </div>
+                        <div class="memory" id="memory4">
+                            <h3>Chat with Me</h3>
+                            <p>Click here to send me a message... 💌</p>
+                        </div>
+                        <div class="memory-controls">
+                            <button class="memory-btn" onclick="prevMemory()">❮</button>
+                            <button class="memory-btn" onclick="nextMemory()">❯</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="love-quote">
+                    My heart beats only for you! 💓
+                </div>
+
+                <div class="date-counter">
+                    Our love grows stronger with each passing moment ❤️
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
