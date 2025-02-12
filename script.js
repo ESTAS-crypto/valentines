@@ -314,7 +314,7 @@ function checkLogin() {
             document.getElementById('loginHint').style.display = 'block';
         }
         alert('nih ku beri petunjuk karna aku sayaang kamu...❤️');
-        alert('hal yang sering kita ucapkan...❤️');
+        alert('hal yang sering kita rayakan setiap tahun...❤️');
     }
 }
 
